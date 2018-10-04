@@ -8,7 +8,7 @@ describe('Zeros', () => {
     assert.equal(zerosCount, 2);
   });
 
-  it('2', () => {
+  it('2', () =>  {
     const zerosCount = getZerosCount(46899647, 232);
     assert.equal(zerosCount, 1674985);
   });
